@@ -1,11 +1,12 @@
-import React from "react";
+const PortfolioItem = (props) => {
+    const {title, imgUrl, stack, link} = props;
 
-function PortfolioItem (title, imgUrl, stack, link) {
+
     return(
         <div className="border-2 border-stone-900 rounded-md overflow-hidden">
         <img 
            src={imgUrl} 
-           alt="portfolio" 
+           alt="portfolio"
            className="w-full h-36 md:h-48 object-cover cursor-pointer"
            />
            <div className="w-full p-4">
@@ -19,7 +20,10 @@ function PortfolioItem (title, imgUrl, stack, link) {
             </p>
            </div>
            </div>
-    )
-}
+    );
+
+};
+ 
+    
 
 export default PortfolioItem;
