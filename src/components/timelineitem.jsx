@@ -14,7 +14,7 @@ const Timelineitem = (props) => {
                 <h3 className="text-lg font-semibold text-stone-900">
                     {title}
                 </h3>
-                <div className="my-1 text-sm font-normal leading-none text-stone-400">
+                <div className="my-1 text-sm- font-normal leading-none text-stone-400">
                     {duration}
                 </div>
         </p>
